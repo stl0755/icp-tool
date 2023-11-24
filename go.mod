@@ -1,4 +1,4 @@
-module icu.bughub.app/ipc-tool
+module github.com/stl0755/icp-tool
 
 go 1.18
 

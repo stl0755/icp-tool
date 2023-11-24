@@ -14,8 +14,8 @@ import (
 	"strings"
 
 	"github.com/poolqa/CgbiPngFix/ipaPng"
+	"github.com/stl0755/icp-tool/model"
 	"howett.net/plist"
-	"icu.bughub.app/ipc-tool/model"
 )
 
 // - 解压 ipa 包后得到 xxx.app

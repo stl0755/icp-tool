@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"icu.bughub.app/ipc-tool/model"
+	"github.com/stl0755/icp-tool/model"
 )
 
 // App struct

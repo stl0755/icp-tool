@@ -12,7 +12,7 @@ import (
 
 	"github.com/avast/apkparser"
 	"github.com/avast/apkverifier"
-	"icu.bughub.app/ipc-tool/model"
+	"github.com/stl0755/icp-tool/model"
 )
 
 func (app *App) Test() *model.EventData {

@@ -7,8 +7,8 @@ import (
 	"runtime"
 	"strings"
 
-	"icu.bughub.app/ipc-tool/model"
-	"icu.bughub.app/ipc-tool/parser"
+	"github.com/stl0755/icp-tool/model"
+	"github.com/stl0755/icp-tool/parser"
 )
 
 //go:embed all:frontend/dist
