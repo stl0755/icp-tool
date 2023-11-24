@@ -7,11 +7,10 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/stl0755/icp-tool/model"
 	"github.com/stl0755/icp-tool/parser"
 )
 
-//go:embed all:frontend/dist
+// go:embed all:frontend/dist
 var assets embed.FS
 
 func main() {
@@ -23,13 +22,13 @@ func main() {
 		fmt.Printf("args[%v]=[%v]\n", k, v)
 	}
 	filePath := os.Args[1]
-	var feature *model.Feature
+	//var feature any
 	var err any
 	if strings.HasSuffix(filePath, ".apk") {
-		feature, err = app.ParseApk(filePath)
+		app.ParseApk(filePath)
 	} else {
 		if runtime.GOOS == "darwin" {
-			feature, err = app.ParseIpa(filePath)
+			app.ParseIpa(filePath)
 		}
 	}
 	//appMenu := menu.NewMenu()
