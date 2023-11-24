@@ -2,8 +2,6 @@ package model
 
 import (
 	"context"
-
-	"github.com/wailsapp/wails/v2/pkg/runtime"
 )
 
 type EventName string
@@ -36,5 +34,5 @@ type Event struct {
 }
 
 func (event *Event) Send() {
-	runtime.EventsEmit(event.Ctx, string(event.Name), event.Data)
+	//runtime.EventsEmit(event.Ctx, string(event.Name), event.Data)
 }
