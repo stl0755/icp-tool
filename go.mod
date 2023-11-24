@@ -5,7 +5,7 @@ go 1.18
 require (
 	github.com/avast/apkparser v0.0.0-20230614091518-10cb8617da43
 	github.com/poolqa/CgbiPngFix v0.0.0-20211024081647-8ad4fb5c23e4
-	github.com/wailsapp/wails/v2 v2.3.1
+	//github.com/wailsapp/wails/v2 v2.3.1
 	howett.net/plist v1.0.0
 )
 
@@ -31,7 +31,7 @@ require (
 	github.com/tkrajina/go-reflector v0.5.5 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/fasttemplate v1.2.1 // indirect
-	github.com/wailsapp/mimetype v1.4.1 // indirect
+	// github.com/wailsapp/mimetype v1.4.1 // indirect
 	golang.org/x/crypto v0.0.0-20210921155107-089bfa567519 // indirect
 	golang.org/x/exp v0.0.0-20220303212507-bbda1eaf7a17 // indirect
 	golang.org/x/net v0.0.0-20220722155237-a158d28d115b // indirect
